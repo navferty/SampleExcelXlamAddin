@@ -98,7 +98,7 @@ Public Sub OnFindPressed(rc As IRibbonControl)
     MsgBox "Find button pressed"
 End Sub
 
-Public Sub SayHelloWorld()
+Public Sub SayHelloWorld(rc As IRibbonControl)
     Dim firstCellValue As String
     
     firstCellValue = ThisWorkbook.Worksheets(1).Cells(1, 1).Value
